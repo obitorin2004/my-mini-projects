@@ -10,18 +10,21 @@ import { createRoot } from 'react-dom/client'
 // import { UserCard } from './UserCard.jsx'
 // import './QrCodeScanner.css'
 // import { QrCodeScanner } from './QrCodeScanner'
-import { DigitalClock } from './DigitalClock'
-import './DigitalClock.css'
+// import { DigitalClock } from './DigitalClock'
+// import './DigitalClock.css'
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
 
+     
     {/* <UserCard /> */}
-   {/* <QrCodeScanner/>      */}
-   {/* <BmiCalculator/> */}
-   {/* <CurrencyConverter/> */}
-   <DigitalClock/>
-    {/* <PasswordGenerator/> */}
+    {/* <QrCodeScanner /> */}
+    {/* <BmiCalculator /> */}
+    {/* <CurrencyConverter /> */}
+    {/* <DigitalClock /> */}
+    {/* <PasswordGenerator /> */}
+  
   </StrictMode>,
 )
